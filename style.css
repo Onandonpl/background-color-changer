@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    transition: linear 0.1s;
+}
+
+#wrap {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.change {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.change:hover {
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.change2 {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.change2:hover {
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.add {
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.add:hover {
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.dec {
+    position: absolute;
+    top: 1.2%;
+    left: calc(50% - 16px);
+    background-image: url("img/zuk.png");
+    width: 32px;
+    height: 32px;
+    transition: all linear 1s;
+}
+
+.mother-ship {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 64px);
+    background-image: url("img/bug.png");
+    transition: all linear 1s;
+    width: 128px;
+    height: 128px;
+    transform: rotate(180deg);
+    z-index: 1;
+
+}
